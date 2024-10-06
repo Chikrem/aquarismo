@@ -1,0 +1,60 @@
+
+.app-header {
+    // position: relative; /* Certifique-se de que o header seja relativo para facilitar o posicionamento */
+    margin: 16px 0 16px 0;
+  }
+  
+  .mat-toolbar {
+    background-color: black;
+    color: white; /* Define a cor do texto como branca */
+    padding: 0 32px;
+    height: 64px; /* Defina uma altura fixa para o header */
+    width: 100%;
+    justify-content: space-between;
+    // position: relative;
+  }
+
+  .container{
+    margin-right: 56px;
+    align-self: flex-start;
+  }
+
+  .logo-container {
+    display: flex; /* Usar flexbox para alinhar a logo e o texto */
+    align-items: center; /* Centraliza verticalmente a logo e o texto */
+    margin-right: 20px; /* Espaço entre a logo e o próximo item do toolbar */
+  }
+  
+  .logo-img {
+    width: 100px; /* Tamanho da logo */
+    height: 100px;
+    border-radius: 50%; /* Torna a imagem redonda */
+    // position: relative; /* Posicionamento relativo para controlar o "vazamento" */
+    // top: -18px; /* Faz a logo "vazar" para cima */
+    // z-index: 10; /* Garante que a logo fique acima do conteúdo */
+  }
+  
+  .logo-text {
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: white; /* Define a cor do texto como branca */
+    margin-left: 10px; /* Espaçamento à esquerda para separar a logo do texto */
+    font-family: 'Montserrat';
+
+  }
+  
+  .links-toolbar{
+    display: flex;
+    gap: 16px;
+    margin-right: 20px;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+
+  a {
+    font-family: 'Montserrat';
+    color: white;
+    text-decoration: none;
+  }
+  
