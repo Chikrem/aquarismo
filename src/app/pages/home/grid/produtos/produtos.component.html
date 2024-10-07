@@ -1,0 +1,16 @@
+<!-- <div class="card-wrapper">
+   <app-cards></app-cards>
+   <app-cards></app-cards>
+   <app-cards></app-cards>
+</div> -->
+
+<div class="carrossel-container">
+  <div class="carrossel">
+    <app-produto *ngFor="let produto of produtos" [produto]="produto"></app-produto>
+  </div>
+
+  <button class="prev" (click)="prev()" [disabled]="isPrevDisabled()">‹</button>
+  <button class="next" (click)="next()" [disabled]="isNextDisabled()">›</button>
+</div>
+
+<!-- npm install ngx-slick-carousel slick-carousel -->

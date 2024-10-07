@@ -1,0 +1,45 @@
+.carrossel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.carrossel {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  gap: 32px;
+}
+
+.app-cards {
+  min-width: 300px; /* Ajuste o tamanho de cada card */
+  margin: 0 10px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 16px;
+  height: 100px;
+  width: 50px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

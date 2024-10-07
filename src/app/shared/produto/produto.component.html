@@ -1,0 +1,12 @@
+<mat-card class="card-busca">
+  <img mat-card-image [src]="produto.imagem" alt="{{ produto.nome }}">
+  <mat-card-content>
+    <ul>
+      <li>{{ produto.nome }}</li>
+      <li>R${{ produto.valor }},00</li>
+    </ul>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button class="card-button">VER DETALHES</button>
+  </mat-card-actions>
+</mat-card>

@@ -8,12 +8,19 @@ import { HeaderComponent } from './shared/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BannerComponent } from './shared/banner/banner.component';
+import { CardsComponent } from './shared/cards/cards.component'; // Para a lista de navegação do menu
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
-import { BannerComponent } from './shared/banner/banner.component'; // Para a lista de navegação do menu
+import { MatCardModule } from '@angular/material/card';
+import { GridComponent } from './pages/home/grid/grid/grid.component';
+import { ContainerComponent } from './shared/container/container.component';
+import { ProdutosComponent } from './pages/home/grid/produtos/produtos.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ProdutoComponent } from './shared/produto/produto.component';
 
 
 @NgModule({
@@ -22,7 +29,12 @@ import { BannerComponent } from './shared/banner/banner.component'; // Para a li
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    CardsComponent,
+    GridComponent,
+    ContainerComponent,
+    ProdutosComponent,
+    ProdutoComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +44,9 @@ import { BannerComponent } from './shared/banner/banner.component'; // Para a li
     MatIconModule,
     MatSidenavModule,
     MatButtonModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    CarouselModule
   ],
   providers: [
     provideClientHydration(),
