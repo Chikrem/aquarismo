@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './cards.component.scss'
 })
 export class CardsComponent {
-  @Input() produto: any;
+  @Input() hobby: any; // Recebe um objeto produto
 }

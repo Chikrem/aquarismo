@@ -11,20 +11,21 @@ export class ProdutosComponent {
 
 
   produtos = [
-    { nome: 'Produto 1', valor: '50', imagem: 'assets/cards/aro.png' },
-    { nome: 'Produto 2', valor: '50', imagem: 'assets/cards/aro.png' },
-    { nome: 'Produto 3', valor: '50', imagem: 'assets/cards/aro.png' },
-    { nome: 'Produto 4', valor: '50', imagem: 'assets/cards/aro.png' },
-    { nome: 'Produto 5', valor: '50', imagem: 'assets/cards/aro.png' },
-    { nome: 'Produto 6', valor: '50', imagem: 'assets/cards/aro.png' },
-    { nome: 'Produto 7', valor: '50', imagem: 'assets/cards/aro.png' },
-    { nome: 'Produto 8', valor: '50', imagem: 'assets/cards/aro.png' },
-    { nome: 'Produto 9', valor: '50', imagem: 'assets/cards/aro.png' },
-    { nome: 'Produto 10', valor: '50', imagem: 'assets/cards/aro.png' }
+    { nome: 'Camisa Fundo do Mar 1', valor: '50', imagem: 'assets/produtos/mod1.png' },
+    { nome: 'Camisa Fundo do Mar 2', valor: '50', imagem: 'assets/produtos/mod2.png' },
+    { nome: 'Camisa Fundo do Mar 3', valor: '50', imagem: 'assets/produtos/mod3.png' },
+    { nome: 'Camisa Fundo do Mar 1', valor: '50', imagem: 'assets/produtos/mod1.png' },
+    { nome: 'Camisa Fundo do Mar 2', valor: '50', imagem: 'assets/produtos/mod2.png' },
+    { nome: 'Camisa Fundo do Mar 3', valor: '50', imagem: 'assets/produtos/mod3.png' },
+    { nome: 'Camisa Fundo do Mar 2', valor: '50', imagem: 'assets/produtos/mod2.png' },
+    { nome: 'Camisa Fundo do Mar 3', valor: '50', imagem: 'assets/produtos/mod3.png' },
+    { nome: 'Camisa Fundo do Mar 1', valor: '50', imagem: 'assets/produtos/mod1.png' },
+    { nome: 'Camisa Fundo do Mar 2', valor: '50', imagem: 'assets/produtos/mod2.png' },
+    { nome: 'Camisa Fundo do Mar 3', valor: '50', imagem: 'assets/produtos/mod3.png' }
   ];
 
   slideCount = this.produtos.length;
-  visibleCards = 2; // Número de cartões visíveis no carrossel
+  visibleCards = 0; // Número de cartões visíveis no carrossel
 
   // Método para ir ao slide anterior
   prev() {
@@ -45,7 +46,7 @@ export class ProdutosComponent {
   // Atualiza a posição do carrossel
   updateCarousel() {
     const carrossel = document.querySelector('.carrossel') as HTMLElement;
-    carrossel.style.transform = `translateX(-${this.currentSlide * 320}px)`;
+    carrossel.style.transform = `translateX(-${this.currentSlide * 520}px)`;
   }
 
   // Verifica se o botão 'prev' deve ser desabilitado
