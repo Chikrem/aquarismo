@@ -72,7 +72,7 @@ a {
   .mat-toolbar {
     background-color: black;
     color: white; /* Define a cor do texto como branca */
-    padding: 0 32px;
+    padding: 0 8px;
     height: 17px; /* Defina uma altura fixa para o header */
     width: 100%;
     justify-content: space-between;
@@ -80,7 +80,7 @@ a {
   }
 
   .container{
-    margin-right: 56px;
+    margin-right: 26px;
     align-self: flex-start;
   }
 
@@ -91,8 +91,8 @@ a {
   }
 
   .logo-img {
-    width: 20px; /* Tamanho da logo */
-    height: 20px;
+    width: 30px; /* Tamanho da logo */
+    height: 30px;
     border-radius: 50%; /* Torna a imagem redonda */
     // position: relative; /* Posicionamento relativo para controlar o "vazamento" */
     // top: -18px; /* Faz a logo "vazar" para cima */
@@ -109,8 +109,8 @@ a {
 
   .links-toolbar{
     display: flex;
-    gap: 16px;
-    margin-right: 20px;
+    gap: 8px;
+    margin-right: 10px;
   }
 
   img {
