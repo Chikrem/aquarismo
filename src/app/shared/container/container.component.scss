@@ -4,7 +4,7 @@
   max-width: 1048px;
   width: 90%;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 428px) {
@@ -13,8 +13,8 @@
     margin: 0 auto;
     max-width: 428px;
     width: 90%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     .ng-content{
       max-width: 428px;
     }

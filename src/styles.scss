@@ -26,4 +26,13 @@ html, body {
     background-color: #C9DC6A;
 
 }
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 16px;
+  margin-bottom: 40px;
+}
+
+
 }
