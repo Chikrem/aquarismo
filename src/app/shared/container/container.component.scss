@@ -6,3 +6,17 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+@media (max-width: 428px) {
+  :host {
+    display: block;
+    margin: 0 auto;
+    max-width: 428px;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .ng-content{
+      max-width: 428px;
+    }
+  }
+}

@@ -1,13 +1,12 @@
 .card-busca {
+  justify-content: flex-end;
   width: 300px;
-
   height: 400px;
   background-color: #FEF7FF;
   border-radius: 12px;
   button {
     width: 55%;
-    margin-left: 48px;
-    margin-top: 48px;
+
     background-color: green;
     border-radius: 12px;
     align-self: end;
@@ -25,6 +24,7 @@
     margin: 0;
     li {
       margin: 0;
+      margin-bottom: 16px;
       font-weight: 400;
       font-size: 32px;
       line-height: 32px;
@@ -37,3 +37,70 @@
 .mat-mdc-card-actions{
   justify-content: flex-end;
 }
+
+.card-busca[_ngcontent-ng-c1271911538]   button[_ngcontent-ng-c1271911538]{
+  font-size: 1.2rem;
+}
+
+/* Estilos para telas com largura máxima de 428px (smartphones) */
+@media (max-width: 428px) {
+  .card-busca {
+    max-width: 120px;
+    max-height: 160px;
+    background-color: #FEF7FF;
+    border-radius: 12px;
+    button {
+      width: 100px;
+      height: 10px;
+      margin-left: 48px;
+      margin-top: 48px;
+      background-color: green;
+      border-radius: 12px;
+    }
+
+    img{
+      max-width: 120px;
+      max-height: 95px;
+      // margin-bottom: 12px;
+    }
+
+    .mat-mdc-card-content{
+      padding: 0;
+      height: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-top:  16px;
+      li {
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 12px;
+        color: #1D1B20;
+        text-align: center;
+      }
+    }
+  }
+
+  .mdc-button__label{
+    width: 100px;
+  }
+
+  .card-busca[_ngcontent-ng-c1271911538]   button[_ngcontent-ng-c1271911538] {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin: 0;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 50%;
+    flex-direction: row;
+  }
+
+
+}
+

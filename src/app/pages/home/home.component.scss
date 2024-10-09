@@ -1,4 +1,8 @@
-.homepage {
+
+
+  /* Estilos para telas com largura máxima de 1440px */
+
+  .homepage {
     .card-wrapper {
       display: flex;
       flex-wrap: wrap;
@@ -19,3 +23,26 @@
   }
 
 
+/* Estilos para telas com largura máxima de 428px (smartphones) */
+@media (max-width: 428px) {
+  .homepage {
+    .card-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      row-gap: 16px;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 14px;
+      font-family: 'Montserrat';
+      font-weight: 500;
+    }
+    h3 {
+      font-size: 10px;
+      font-family: 'Montserrat';
+      margin-bottom: 40px;
+      line-height: 130%;
+    }
+  }
+}

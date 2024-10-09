@@ -23,8 +23,9 @@
       text-align: center;
     }
   }
+  .mat-mdc-card-actions{
+    justify-content: flex-end;
+  }
 }
 
-.mat-mdc-card-actions{
-  justify-content: flex-end;
-}
+

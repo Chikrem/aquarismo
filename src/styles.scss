@@ -17,3 +17,13 @@ html, body {
     row-gap: 32px;
     margin-bottom: 40px;
 }
+
+@media (max-width: 428px) {
+  html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #C9DC6A;
+
+}
+}
