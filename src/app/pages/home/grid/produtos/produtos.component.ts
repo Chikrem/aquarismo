@@ -43,10 +43,25 @@ export class ProdutosComponent {
     }
   }
 
-  // Atualiza a posição do carrossel
   updateCarousel() {
     const carrossel = document.querySelector('.carrossel') as HTMLElement;
-    carrossel.style.transform = `translateX(-${this.currentSlide * 520}px)`;
+
+    // Detecta a largura da tela
+    const screenWidth = window.innerWidth;
+
+    // Define a largura do card com base na resolução da tela
+    let cardWidth: number;
+
+    if (screenWidth <= 428) {
+      // Se a tela for menor ou igual a 428px, ajusta a largura dos cards para 200px
+      cardWidth = 210;
+    } else {
+      // Largura padrão dos cards para telas maiores
+      cardWidth = 520;
+    }
+
+    // Atualiza a posição do carrossel com base na largura dinâmica do card
+    carrossel.style.transform = `translateX(-${this.currentSlide * cardWidth}px)`;
   }
 
   // Verifica se o botão 'prev' deve ser desabilitado

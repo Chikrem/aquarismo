@@ -28,4 +28,63 @@
   }
 }
 
+/* Estilos para telas com largura máxima de 428px (smartphones) */
+@media (max-width: 428px) {
+  .card-busca {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
+    height: 200px;
+    background-color: #FEF7FF;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    button {
+      height: 20px;
+      width: 50%;
+      font-size: 12px;
+      background-color: green;
+      border-radius: 4px;
+    }
+
+    img{
+      width: 160px;
+      height: 120px;
+      // margin-bottom: 12px;
+    }
+
+    .mat-mdc-card-content{
+
+      padding: 0;
+      height: 15px;
+    }
+
+    ul {
+
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 12px;
+        color: #1D1B20;
+        text-align: center;
+      }
+    }
+  }
+
+  .mdc-button__label{
+    width: 100px;
+  }
+
+  .mat-mdc-card-actions{
+    height: 40px;
+  }
+
+}
 
