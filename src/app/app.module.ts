@@ -21,6 +21,10 @@ import { ContainerComponent } from './shared/container/container.component';
 import { ProdutosComponent } from './pages/home/grid/produtos/produtos.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ProdutoComponent } from './shared/produto/produto.component';
+import { ParceirosComponent } from './shared/parceiros/parceiros.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ModalComponent } from './shared/modal/modal.component';
+import { EventosComponent } from './shared/eventos/eventos.component';
 
 
 @NgModule({
@@ -34,8 +38,10 @@ import { ProdutoComponent } from './shared/produto/produto.component';
     GridComponent,
     ContainerComponent,
     ProdutosComponent,
-    ProdutoComponent
-  ],
+    ProdutoComponent,
+    ParceirosComponent,
+    ModalComponent,
+    EventosComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -46,7 +52,8 @@ import { ProdutoComponent } from './shared/produto/produto.component';
     MatButtonModule,
     MatListModule,
     MatCardModule,
-    CarouselModule
+    CarouselModule,
+    MatDialogModule
   ],
   providers: [
     provideClientHydration(),

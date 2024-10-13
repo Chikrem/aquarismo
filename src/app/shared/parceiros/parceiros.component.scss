@@ -1,0 +1,17 @@
+
+  img{
+    width: 300px;
+    height: 300px;
+  }
+
+/* Estilos para telas com largura máxima de 428px (smartphones) */
+@media (max-width: 428px) {
+
+    img{
+      max-width: 100px;
+      max-height: 100px;
+      // margin-bottom: 12px;
+    }
+
+}
+

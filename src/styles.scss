@@ -18,6 +18,14 @@ html, body {
     margin-bottom: 40px;
 }
 
+.card-parceiros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 32px;
+    margin-bottom: 40px;
+}
+
 @media (max-width: 428px) {
   html, body {
     height: 100%;
