@@ -1,0 +1,7 @@
+<div class="carousel-wrapper">
+  <div class="carousel" [style.transform]="getTransform()">
+    <a *ngFor="let parceiro of parceiros" [href]="parceiro.href" class="carousel-item">
+      <img [src]="parceiro.src" alt="Parceiro">
+    </a>
+  </div>
+</div>

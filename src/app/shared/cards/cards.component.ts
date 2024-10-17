@@ -15,8 +15,12 @@ export class CardsComponent {
   // Método que será chamado ao clicar no botão para abrir o modal
   openModal() {
     this.dialog.open(ModalComponent, {
-      width: '400px',
-      data: this.hobby // Passa o objeto hobby para o modal
+      width: '800px',
+      height: 'auto',
+      data: {
+        context: 'hobby',
+        data: this.hobby
+      }
     });
   }
 }

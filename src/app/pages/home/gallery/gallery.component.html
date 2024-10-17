@@ -1,0 +1,5 @@
+<div class="gallery-container">
+  <div class="gallery-item" *ngFor="let foto of fotos" (click)="openZoomModal(foto.src)">
+    <img [src]="foto.src" alt="Imagem da galeria" />
+  </div>
+</div>

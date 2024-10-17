@@ -1,25 +1,16 @@
-<h1 mat-dialog-title>Detalhes do Hobby</h1>
+<div mat-dialog-content *ngIf="context === 'hobby'" class="card-busca">
+  <h1 mat-dialog-title>Detalhes do Hobby</h1>
+  <p><strong>{{ data.nome }}</strong></p>
+  <img [src]="data.imagem" alt="{{ data.nome }}" width=100%>
+  <p>{{ data.descricao }}</p>
+</div>
 
-<div mat-dialog-content>
-  <p><strong>Nome:</strong> {{ data.nome }}</p>
-  <img [src]="data.imagem" alt="Imagem do hobby" width="100%">
-  <!-- <p><strong>Descrição:</strong> {{ data.descricao }}</p> -->
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra
-    lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit,
-    sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque
-    tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare pharetra risus, sed
-    molestie odio sodales non. Vestibulum dictum sapien nec tortor vehicula, vel suscipit odio lacinia. Cras tempor
-    tortor a turpis congue, vitae gravida magna fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra
-    lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit,
-    sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque
-    tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare pharetra risus, sed
-    molestie odio sodales non. Vestibulum dictum sapien nec tortor vehicula, vel suscipit odio lacinia. Cras tempor
-    tortor a turpis congue, vitae gravida magna fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra
-    lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit,
-    sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque
-    tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare pharetra risus, sed
-    molestie odio sodales non. Vestibulum dictum sapien nec tortor vehicula, vel suscipit odio lacinia. Cras tempor
-    tortor a turpis congue, vitae gravida magna fermentum.</p>
+<div mat-dialog-content *ngIf="context === 'produto'" class="card-busca">
+  <h1 mat-dialog-title>Produtos</h1>
+  <h1 mat-dialog-title>{{ data.nome }}</h1>
+  <img [src]="data.imagem" alt="{{ data.nome }}" width=100%>
+  <p>{{ data.descricao }}</p>
+  <h1 mat-dialog-title>R${{ data.valor }},00</h1>
 </div>
 
 <div mat-dialog-actions>

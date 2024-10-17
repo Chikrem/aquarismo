@@ -25,6 +25,9 @@ import { ParceirosComponent } from './shared/parceiros/parceiros.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ModalComponent } from './shared/modal/modal.component';
 import { EventosComponent } from './shared/eventos/eventos.component';
+import { CarouselComponent } from './pages/home/grid/carousel/carousel.component';
+import { GalleryComponent } from './pages/home/gallery/gallery.component';
+import { ImageZoomModalComponent } from './pages/home/gallery/image-zoom-modal/image-zoom-modal.component';
 
 
 @NgModule({
@@ -41,7 +44,10 @@ import { EventosComponent } from './shared/eventos/eventos.component';
     ProdutoComponent,
     ParceirosComponent,
     ModalComponent,
-    EventosComponent  ],
+    EventosComponent,
+    CarouselComponent,
+    GalleryComponent,
+    ImageZoomModalComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -1,0 +1,46 @@
+.mat-mdc-dialog-inner-container{
+  width: 1000px;
+}
+@media (max-width: 1440px) {
+  .mat-mdc-dialog-container {
+    min-width: 100vh !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    .card-busca {
+      background-color: #FEF7FF;
+      border-radius: 12px;
+    }
+  }
+  button {
+    width: 40%;
+    margin-left: 48px;
+    background-color: green;
+    border-radius: 12px;
+    align-self: end;
+  }
+  .mat-mdc-button:not(:disabled){
+    color: white;
+  }
+  p {
+    font-size: 22px;
+}
+}
+
+/* Estilos para telas com largura máxima de 428px (smartphones) */
+@media (max-width: 428px) {
+  .mat-mdc-dialog-container {
+    width: 80% !important;
+    height: 400px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mat-mdc-dialog-content .mdc-dialog__.content .card-busca{
+    width: 100px;
+  }
+  p {
+    font-size: 14px;
+}
+}
+

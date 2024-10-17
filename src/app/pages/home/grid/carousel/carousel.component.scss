@@ -1,0 +1,19 @@
+.carousel-wrapper {
+  width: 100%; /* Faz o container ocupar toda a largura */
+  overflow: hidden; /* Oculta as imagens que estão fora da área visível */
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 30%; /* Cada item ocupa 30% da largura visível */
+  margin-right: 3.33%; /* Espacamento entre os itens */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
