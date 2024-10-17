@@ -9,6 +9,7 @@ import { ImageZoomModalComponent } from './image-zoom-modal/image-zoom-modal.com
 })
 export class GalleryComponent {
   @Input() fotos: { src: string }[] = [];
+  @Input() fotos2: { src: string }[] = [];
 
   constructor(public dialog: MatDialog) {}
 
