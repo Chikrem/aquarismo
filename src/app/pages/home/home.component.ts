@@ -20,14 +20,14 @@ export class HomeComponent{
 
   fotos2 = [
 
-    { src: 'assets/galeria/foto1.jpg' },
-    { src: 'assets/galeria/foto2.jpg' },
-    { src: 'assets/galeria/foto3.jpg' },
-    { src: 'assets/galeria/foto4.jpg' },
-
+    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/foto1.jpg' },
+    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/foto2.jpg' },
+    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/foto3.jpg' },
+    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/foto4.jpg' }
 
     // Adicione mais imagens conforme necessário
   ];
+
 
 
 }
