@@ -52,7 +52,10 @@
     <app-parceiros href="https://nutricon.ind.br/" src=  'assets/parceiros/nutri.png' ></app-parceiros>
   </section> -->
 
-  <app-carousel></app-carousel>
+
+  <app-container>
+    <app-carousel></app-carousel>
+  </app-container>
 
   <app-container>
     <h2>EVENTOS</h2>
@@ -63,13 +66,15 @@
       molestie odio sodales non. Vestibulum dictum sapien nec tortor vehicula, vel suscipit odio lacinia. Cras tempor
       tortor a turpis congue, vitae gravida magna fermentum.</h3>
 
+      <app-gallery [fotos]="fotos"></app-gallery>
+
   </app-container>
 
   <app-container>
     <h2>GALERIA</h2>
+    <app-gallery [fotos]="fotos2"></app-gallery>
   </app-container>
 
-  <app-gallery [fotos]="fotos"></app-gallery>
 
   <app-banner src="assets/imagens/banner-footer.png" alt="Banner da aplicação Aquarismo"></app-banner>
 
