@@ -17,7 +17,7 @@ export class GalleryComponent {
       data: { src: fotoSrc },
       panelClass: 'full-screen-modal',
       height: '70vh',
-      maxWidth: '100vw',
+      maxWidth: '50vw',
       width: '100%',
     });
   }
