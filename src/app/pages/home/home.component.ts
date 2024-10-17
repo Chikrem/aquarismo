@@ -20,14 +20,19 @@ export class HomeComponent{
 
   fotos2 = [
 
-    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/foto1.jpg' },
-    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/foto2.jpg' },
-    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/foto3.jpg' },
-    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/foto4.jpg' }
+    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/a.jpeg' },
+    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/c.jpeg' },
+    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/b.jpeg' },
+    { src: 'https://raw.githubusercontent.com/Chikrem/aquarismo/refs/heads/main/src/assets/galeria/d.jpeg' }
 
-    // Adicione mais imagens conforme necessário
+    // Adicione mais imagens conforme necessári
   ];
 
-
+  bannerImages = [
+    { src: 'assets/imagens/banner.svg', alt: 'Banner 1' },
+    { src: 'assets/imagens/banner3.svg', alt: 'Banner 3' },
+    { src: 'assets/imagens/banner2.svg', alt: 'Banner 2' },
+    { src: 'assets/imagens/banner4.svg', alt: 'Banner 4' }
+  ];
 
 }

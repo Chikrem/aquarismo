@@ -1,5 +1,15 @@
-<figure>
+<!-- <figure>
     <img
       src="{{ src }}"
       alt="{{ alt }}">
-</figure>
+</figure> -->
+
+<!-- <figure *ngIf="images.length > 0">
+  <img [src]="getCurrentImage().src" [alt]="getCurrentImage().alt">
+</figure> -->
+
+<div class="banner-container">
+  <div class="banner-slides" [style.transform]="'translateX(' + -currentImageIndex * 100 + '%)'" [style.transition]="'transform 0.5s ease-in-out'">
+    <img *ngFor="let image of images" [src]="image.src" [alt]="image.alt" class="banner-image">
+  </div>
+</div>

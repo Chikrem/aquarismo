@@ -10,7 +10,8 @@
   flex: 1 1 auto; // Permite que os itens cresçam e se contraiam
   display: flex;
   // min-width: 150px; // Largura mínima para cada imagem
-  max-width: 300px; // Largura máxima para cada imagem
+  max-width: 30%; // Largura máxima para cada imagem
+  max-height: auto; // Altura máxima para cada imagem
   overflow: hidden; // Oculta o excesso, se houver
   border-radius: 8px; // Bordas arredondadas
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); // Sombra para dar profundidade
@@ -47,5 +48,18 @@
   border-radius: var(--mdc-dialog-container-shape, var(--mat-app-corner-extra-large, 4px));
   background-color: var(--mdc-dialog-container-color, var(--mat-app-surface, white));
   justify-content: center;
+
+  }
+
+  @media (max-width: 428px) {
+    .gallery-container{
+      gap: 1rem; // Largura máxima para cada imagem
+    }
+
+    .gallery-item {
+      // min-width: 150px; // Largura mínima para cada imagem
+      max-width: 45%; // Largura máxima para cada imagem
+
+    }
 
   }

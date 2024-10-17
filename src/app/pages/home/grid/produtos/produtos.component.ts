@@ -54,7 +54,7 @@ export class ProdutosComponent {
 
     if (screenWidth <= 428) {
       // Se a tela for menor ou igual a 428px, ajusta a largura dos cards para 200px
-      cardWidth = 210;
+      cardWidth = 190;
     } else {
       // Largura padrão dos cards para telas maiores
       cardWidth = 520;
