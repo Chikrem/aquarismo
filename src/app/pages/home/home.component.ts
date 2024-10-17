@@ -20,13 +20,11 @@ export class HomeComponent{
 
   fotos2 = [
 
-    { src: 'assets/eventos/evento.png' },
-    { src: 'assets/eventos/evento.png' },
-    { src: 'assets/eventos/evento.png' },
-    { src: 'assets/eventos/evento.png' },
-    { src: 'assets/eventos/evento1.jpeg' },
-    { src: 'assets/eventos/evento2.jpeg' },
-    { src: 'assets/eventos/evento3.jpeg' }
+    { src: 'assets/galeria/foto1.jpg' },
+    { src: 'assets/galeria/foto2.jpg' },
+    { src: 'assets/galeria/foto3.jpg' },
+    { src: 'assets/galeria/foto4.jpg' },
+
 
     // Adicione mais imagens conforme necessário
   ];
