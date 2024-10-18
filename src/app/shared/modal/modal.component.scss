@@ -1,31 +1,36 @@
-.mat-mdc-dialog-inner-container{
-  width: 1000px;
-}
-@media (max-width: 1440px) {
-  .mat-mdc-dialog-container {
-    min-width: 100vh !important;
-    height: auto !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    .card-busca {
-      background-color: #FEF7FF;
-      border-radius: 12px;
-    }
-  }
-  button {
-    width: 40%;
-    margin-left: 48px;
-    background-color: green;
+
+
+.mat-mdc-dialog-container {
+  min-width: 95vw !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  .card-busca {
+    background-color: #fef7ff;
     border-radius: 12px;
-    align-self: end;
   }
-  .mat-mdc-button:not(:disabled){
-    color: white;
-  }
-  p {
-    font-size: 22px;
+
 }
+
+button {
+  width: 40%;
+  margin-left: 48px;
+  background-color: green;
+  border-radius: 12px;
+  align-self: end;
 }
+
+.mat-mdc-button:not(:disabled) {
+  color: white;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
 
 /* Estilos para telas com largura máxima de 428px (smartphones) */
 @media (max-width: 428px) {
@@ -36,11 +41,12 @@
     padding: 0 !important;
   }
 
-  .mat-mdc-dialog-content .mdc-dialog__.content .card-busca{
+  .mat-mdc-dialog-content .mdc-dialog__.content .card-busca {
     width: 100px;
   }
   p {
     font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
 }
-}
-

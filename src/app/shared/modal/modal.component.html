@@ -2,13 +2,25 @@
   <h1 mat-dialog-title>Detalhes do Hobby</h1>
   <p><strong>{{ data.nome }}</strong></p>
   <img [src]="data.imagem" alt="{{ data.nome }}" width=100%>
-  <p>{{ data.descricao }}</p>
+  <!-- <p>{{ data.descricao }}</p> -->
+  <div *ngFor="let paragrafo of data.descricao.split('\n')" >
+    <p>{{ paragrafo }}</p>
+  </div>
+  <img [src]="data.imagem1" width=100%>
+  <img [src]="data.imagem2" width=100%>
+  <img [src]="data.imagem3" width=100%>
+  <img [src]="data.imagem4" width=100%>
+  <img [src]="data.imagem5" width=100%>
+  <img [src]="data.imagem6" width=100%>
 </div>
+
+
 
 <div mat-dialog-content *ngIf="context === 'produto'" class="card-busca">
   <h1 mat-dialog-title>Produtos</h1>
   <h1 mat-dialog-title>{{ data.nome }}</h1>
   <img [src]="data.imagem" alt="{{ data.nome }}" width=100%>
+
   <p>{{ data.descricao }}</p>
   <h1 mat-dialog-title>R${{ data.valor }},00</h1>
 </div>
