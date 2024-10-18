@@ -26,8 +26,8 @@ img {
 @media (max-width: 428px) {
 
   img {
-    max-width: 100%;
-    max-height: 100%;
+    min-width: 100%;
+    height: auto;
     cursor: pointer; /* Para indicar que clicar na imagem fecha o modal */
   }
 
