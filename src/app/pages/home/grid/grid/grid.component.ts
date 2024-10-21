@@ -67,22 +67,44 @@ export class GridComponent {
 
     { nome: 'MARINHOS',
       imagem: 'assets/cards/marinho.png',
+      imagem1: 'assets/cards/marinhos/mari1.svg',
+      imagem2: 'assets/cards/marinhos/mari6.svg',
+      imagem3: 'assets/cards/marinhos/mari3.svg',
+      imagem4: 'assets/cards/marinhos/mari4.svg',
+      imagem5: 'assets/cards/marinhos/mari5.svg',
+      imagem6: 'assets/cards/marinhos/mari2.svg',
       descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' },
 
     { nome: 'CRUSTÁCEOS',
       imagem: 'assets/cards/camarao.png',
+      imagem1: 'assets/cards/camaroes/cama1.svg',
+      imagem2: 'assets/cards/camaroes/cama6.svg',
+      imagem3: 'assets/cards/camaroes/cama3.svg',
+      imagem4: 'assets/cards/camaroes/cama4.svg',
+      imagem5: 'assets/cards/camaroes/cama5.svg',
+      imagem6: 'assets/cards/camaroes/cama2.svg',
       descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' },
 
-    { nome: 'ASIÁTICOS',
-      imagem: 'assets/cards/asiaticos.png',
+    { nome: 'AMAZÔNICOS',
+      imagem: 'assets/cards/bandeira.png',
+      imagem1: 'assets/cards/amazonicos/ama1.svg',
+      imagem2: 'assets/cards/amazonicos/ama2.svg',
+      imagem3: 'assets/cards/amazonicos/ama3.svg',
+      imagem4: 'assets/cards/amazonicos/ama4.svg',
+      imagem5: 'assets/cards/amazonicos/ama5.svg',
+      imagem6: 'assets/cards/amazonicos/ama6.svg',
       descricao: 'LLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' },
 
     { nome: 'ASIÁTICOS',
       imagem: 'assets/cards/asiaticos.png',
       descricao: 'LLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' },
 
-    { nome: 'ASIÁTICOS',
-      imagem: 'assets/cards/asiaticos.png',
+    { nome: 'AMERICANOS',
+      imagem: 'assets/cards/red.png',
+      descricao: 'LLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' },
+
+    { nome: 'PRIMIRIVOS',
+      imagem: 'assets/cards/poly.png',
       descricao: 'LLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' }
   ];
 
