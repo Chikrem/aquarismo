@@ -97,14 +97,32 @@ export class GridComponent {
 
     { nome: 'ASIÁTICOS',
       imagem: 'assets/cards/asiaticos.png',
+      imagem1: 'assets/cards/amazonicos/ama1.svg',
+      imagem2: 'assets/cards/amazonicos/ama2.svg',
+      imagem3: 'assets/cards/amazonicos/ama3.svg',
+      imagem4: 'assets/cards/amazonicos/ama4.svg',
+      imagem5: 'assets/cards/amazonicos/ama5.svg',
+      imagem6: 'assets/cards/amazonicos/ama6.svg',
       descricao: 'LLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' },
 
     { nome: 'AMERICANOS',
       imagem: 'assets/cards/red.png',
+      imagem1: 'assets/cards/amazonicos/ama1.svg',
+      imagem2: 'assets/cards/amazonicos/ama2.svg',
+      imagem3: 'assets/cards/amazonicos/ama3.svg',
+      imagem4: 'assets/cards/amazonicos/ama4.svg',
+      imagem5: 'assets/cards/amazonicos/ama5.svg',
+      imagem6: 'assets/cards/amazonicos/ama6.svg',
       descricao: 'LLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' },
 
     { nome: 'PRIMIRIVOS',
       imagem: 'assets/cards/poly.png',
+      imagem1: 'assets/cards/amazonicos/ama1.svg',
+      imagem2: 'assets/cards/amazonicos/ama2.svg',
+      imagem3: 'assets/cards/amazonicos/ama3.svg',
+      imagem4: 'assets/cards/amazonicos/ama4.svg',
+      imagem5: 'assets/cards/amazonicos/ama5.svg',
+      imagem6: 'assets/cards/amazonicos/ama6.svg',
       descricao: 'LLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' }
   ];
 
