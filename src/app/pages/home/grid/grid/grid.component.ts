@@ -43,17 +43,7 @@ export class GridComponent {
       imagem4: 'assets/cards/kinguios/kin4.svg',
       imagem5: 'assets/cards/kinguios/kin5.svg',
       imagem6: 'assets/cards/kinguios/kin6.svg',
-      descricao: 'LoLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' },
-
-    { nome: 'AFRICANOS',
-      imagem: 'assets/cards/africano.png',
-      imagem1: 'assets/cards/ciclideos/cicli1.svg',
-      imagem2: 'assets/cards/ciclideos/cicli2.svg',
-      imagem3: 'assets/cards/ciclideos/cicli3.svg',
-      imagem4: 'assets/cards/ciclideos/cicli4.svg',
-      imagem5: 'assets/cards/ciclideos/cicli5.svg',
-      imagem6: 'assets/cards/ciclideos/cicli6.svg',
-      descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisi at lorem aliquam gravida. Ut at viverra lacus. Mauris aliquet vehicula sapien, ac faucibus lectus maximus in. Curabitur volutpat lacus ut nunc suscipit, sit amet facilisis nisi pulvinar. Suspendisse potenti. Aliquam a eros venenatis, consequat arcu at, scelerisque tortor. Fusce ac sem sapien. Duis at consectetur felis, ac consequat ex. Integer ornare ph' },
+      descricao: 'Peixes Kinguios e Telescópios: Uma Jóia do Aquarismo.\n\n Os peixes Kinguios e Telescópios são duas das espécies mais fascinantes e populares do mundo aquático. Ambos pertencem à família Cyprinidae e são originários da'},
 
     { nome: 'DISCOS',
       imagem: 'assets/cards/disco.png',
