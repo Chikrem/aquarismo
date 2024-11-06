@@ -11,6 +11,7 @@ export class GalleryComponent {
   @Input() fotos: { src: string }[] = [];
   @Input() fotos2: { src: string }[] = [];
 
+
   constructor(public dialog: MatDialog) {}
 
   openZoomModal(fotoSrc: string) {

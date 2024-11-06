@@ -11,7 +11,7 @@ export class HomeComponent{
   fotos = [
 
     { src: 'assets/eventos/evento.png' },
-    { src: 'assets/eventos/evento1.jpeg' },
+    // { src: 'assets/eventos/evento1.jpeg' },
     { src: 'assets/eventos/evento2.jpeg' },
     { src: 'assets/eventos/evento3.jpeg' }
 
