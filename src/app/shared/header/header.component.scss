@@ -34,6 +34,12 @@
   // z-index: 10; /* Garante que a logo fique acima do conteúdo */
 }
 
+.zap-img {
+  width: 60px; /* Tamanho da logo */
+  height: 60px;
+  border-radius: 50%;
+}
+
 .logo-text {
   font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
   color: white; /* Define a cor do texto como branca */
@@ -73,14 +79,16 @@ a {
     background-color: black;
     color: white; /* Define a cor do texto como branca */
     padding: 0 8px;
-    height: 17px; /* Defina uma altura fixa para o header */
+    height: 20px; /* Defina uma altura fixa para o header */
     width: 100%;
     justify-content: space-between;
     // position: relative;
   }
 
+
+
   .container{
-    margin-right: 26px;
+    margin-right: 20px;
     align-self: flex-start;
   }
 
@@ -99,8 +107,17 @@ a {
     // z-index: 10; /* Garante que a logo fique acima do conteúdo */
   }
 
+  .zap-img {
+    width: 18px; /* Tamanho da logo */
+    height: 18px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+
+
+
   .logo-text {
-    font-size: 8px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 10px; /* Ajuste o tamanho da fonte conforme necessário */
     color: white; /* Define a cor do texto como branca */
     margin-left: 8px; /* Espaçamento à esquerda para separar a logo do texto */
     font-family: 'Montserrat';
