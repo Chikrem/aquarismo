@@ -10,6 +10,7 @@ import { ImageZoomModalComponent } from './image-zoom-modal/image-zoom-modal.com
 export class GalleryComponent {
   @Input() fotos: { src: string }[] = [];
   @Input() fotos2: { src: string }[] = [];
+  @Input() lojas: { src: string }[] = [];
 
 
   constructor(public dialog: MatDialog) {}
@@ -18,7 +19,7 @@ export class GalleryComponent {
     this.dialog.open(ImageZoomModalComponent, {
       data: { src: fotoSrc },
       panelClass: 'full-screen-modal',
-      height: '70vh',
+      height: '80vh',
       maxWidth: '90vw',
       width: '100%',
     });

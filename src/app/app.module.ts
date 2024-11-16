@@ -19,7 +19,6 @@ import { MatCardModule } from '@angular/material/card';
 import { GridComponent } from './pages/home/grid/grid/grid.component';
 import { ContainerComponent } from './shared/container/container.component';
 import { ProdutosComponent } from './pages/home/grid/produtos/produtos.component';
-import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ProdutoComponent } from './shared/produto/produto.component';
 import { ParceirosComponent } from './shared/parceiros/parceiros.component';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -28,6 +27,7 @@ import { EventosComponent } from './shared/eventos/eventos.component';
 import { CarouselComponent } from './pages/home/grid/carousel/carousel.component';
 import { GalleryComponent } from './pages/home/gallery/gallery.component';
 import { ImageZoomModalComponent } from './pages/home/gallery/image-zoom-modal/image-zoom-modal.component';
+import { LojasComponent } from './pages/home/grid/lojas/lojas.component';
 
 
 @NgModule({
@@ -47,7 +47,9 @@ import { ImageZoomModalComponent } from './pages/home/gallery/image-zoom-modal/i
     EventosComponent,
     CarouselComponent,
     GalleryComponent,
-    ImageZoomModalComponent  ],
+    ImageZoomModalComponent,
+    LojasComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -58,7 +60,6 @@ import { ImageZoomModalComponent } from './pages/home/gallery/image-zoom-modal/i
     MatButtonModule,
     MatListModule,
     MatCardModule,
-    CarouselModule,
     MatDialogModule
   ],
   providers: [
