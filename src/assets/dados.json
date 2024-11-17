@@ -1,9 +1,9 @@
 {
   "fotos": [
-    { "src": "assets/eventos/evento.jpeg" },
-    { "src": "assets/eventos/evento1.jpeg" },
-    { "src": "assets/eventos/evento2.jpeg" },
-    { "src": "assets/eventos/evento3.jpeg" }
+    { "src": "assets/eventos/evento.png" },
+    { "src": "assets/eventos/evento1.png" },
+    { "src": "assets/eventos/evento2.png" },
+    { "src": "assets/eventos/evento3.png" }
   ],
   "evento": [
     { "src": "assets/eventos/cafe.png" }
