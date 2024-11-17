@@ -5,6 +5,9 @@
     { "src": "assets/eventos/evento2.jpeg" },
     { "src": "assets/eventos/evento3.jpeg" }
   ],
+  "evento": [
+    { "src": "assets/eventos/cafe.png" }
+  ],
   "fotos2": [
     { "src": "assets/galeria/a.jpeg" },
     { "src": "assets/galeria/b.jpeg" },

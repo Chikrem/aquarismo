@@ -11,6 +11,8 @@ export class GalleryComponent {
   @Input() fotos: { src: string }[] = [];
   @Input() fotos2: { src: string }[] = [];
   @Input() lojas: { src: string }[] = [];
+  @Input() evento: { src: string }[] = [];
+  
 
 
   constructor(public dialog: MatDialog) {}
