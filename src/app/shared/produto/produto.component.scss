@@ -1,5 +1,6 @@
 .card-busca {
-  width: 580px;
+  max-width: 580px;
+  max-height: 410px;
   background-color: #FEF7FF;
   border-radius: 12px;
   button {
@@ -8,6 +9,11 @@
     background-color: green;
     border-radius: 12px;
     align-self: end;
+  }
+
+  img {
+    height: 250px;
+    width: 580px;
   }
 
 

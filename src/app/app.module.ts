@@ -28,6 +28,7 @@ import { CarouselComponent } from './pages/home/grid/carousel/carousel.component
 import { GalleryComponent } from './pages/home/gallery/gallery.component';
 import { ImageZoomModalComponent } from './pages/home/gallery/image-zoom-modal/image-zoom-modal.component';
 import { LojasComponent } from './pages/home/grid/lojas/lojas.component';
+import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
 
 
 @NgModule({
@@ -60,11 +61,15 @@ import { LojasComponent } from './pages/home/grid/lojas/lojas.component';
     MatButtonModule,
     MatListModule,
     MatCardModule,
-    MatDialogModule
+    MatDialogModule,
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration(),
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    provideHttpClient(withFetch())
+
   ],
   bootstrap: [AppComponent]
 })
